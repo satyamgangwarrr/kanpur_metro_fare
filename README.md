@@ -97,14 +97,14 @@ python kanpur_metro.py
 
 DataBase 
 
-![Screenshot](Screenshot 2026-01-28 2.14.16 PM.png)
+![Screenshot](screenshot/Screenshot%202026-01-28%202.14.16%20PM.png)
 
 Fare between two stations  
 SELECT from_name, to_name, weekday_fare, weekend_fare, stations_between  
 FROM fare  
 WHERE from_name='IIT KANPUR' AND to_name='KALYANPUR METRO';
 
-![Screenshot](Screenshot 2026-01-28 2.24.58 PM.png)
+![Screenshot](screenshot/Screenshot%202026-01-28%202.24.58%20PM.png)
 
 List all metro stations  
 SELECT DISTINCT from_code, from_name  
@@ -114,7 +114,7 @@ SELECT DISTINCT to_code, to_name
 FROM fare  
 ORDER BY from_name;
 
-![Screenshot](Screenshot 2026-01-28 2.19.12 PM.png)
+![Screenshot](screenshot/Screenshot%202026-01-28%202.19.12%20PM.png)
 
 Cheapest routes  
 SELECT from_name, to_name, weekday_fare  
