@@ -128,6 +128,3 @@ ORDER BY weekday_fare ASC;
 • SQLite database file: kanpur_metro.db  
 • fare table containing complete fare matrix  
 • Fully queryable metro fare dataset  
-
-
-⭐ Star the repository if you find this project useful
