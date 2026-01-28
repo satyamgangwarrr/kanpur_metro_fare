@@ -1,4 +1,4 @@
-# 🚇 Kanpur Metro Fare Database System
+# 🚆 Kanpur Metro Fare Database System
 
 A clean, minimal, and practical Python data engineering project that fetches Kanpur Metro station and fare data from official UP Metro Rail APIs and stores it in a structured SQLite database for easy querying and analysis.
 
